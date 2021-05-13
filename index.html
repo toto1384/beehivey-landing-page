@@ -1,29 +1,85 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-</head>
-<body>
-    <div class="d-flex justify-content-between vw-100 hero_section" style="height:90vh">
-        <div class="col-6 align-self-center p-5">
-            <img src="illustration.png" alt=" ">
-            <!-- dkfnskd -->
-        </div>
-        <div class="col-6 p-5 d-flex hero_text_container" style="height: 90vh;">
-            <!-- <div class="hero_text_blur"></div> -->
-            <div class="hero_text align-self-center">
-                <h2 class="text-center">Simple social netorking for coworkers</h2>
-                <h3 class="text-center">Plan with ease</h3>
-                <form action="https://app.beehiveyapp.com" target="_blank">
-                    <input type="submit" value="Go to App" class="btn btn-primary"/>
-                </form>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beehivey</title>
 
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <script src="app.js"></script>
+      <script src="csi.js"></script>
+
+      <div data-include="navbar.html"></div>
+
+      <div
+        class="row d-flex justify-content-between hero_section w-auto"
+        style="height: 90vh; top: 0px; position: abosolute"
+      >
+        <div class="col-6 align-self-center p-5 justify-content-center">
+          <img
+            src="assets/s1.jpg"
+            alt="Simple social networking"
+            style="border-radius: 1rem; max-height: 60vh"
+            class="shadow-lg"
+          />
+        </div>
+        <div
+          class="col-6 d-flex hero_text_container justify-content-center"
+          style="height: 90vh"
+        >
+          <div
+            class="
+              hero_text
+              align-self-center
+              justify-content-center
+              text-center
+            "
+          >
+            <h2 class="text-center">Simple social networking for coworkers</h2>
+            <h3 class="text-center">
+              Build for online and brick and mortar businesses
+            </h3>
+
+            <a
+              class="btn btn-primary btn-lg m-5 text-center"
+              href="https://app.beehiveyapp.com"
+            >
+              Launch app
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center my-5" id="our-clients">Our clients</h3>
+
+      <div class="testimonials w-auto justify-content-center">
+        <div class="card shadow mx-auto d-block" style="width: 40vw">
+          <img src="assets/s1.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <div class="card-title">
+              <h5>David Lehnhardt</h5>
+            </div>
+            <div class="card-text">
+              If this seems over the top and fake, We feel you. Book a call with
+              us and we will show all the proof :))
+            </div>
+          </div>
+        </div>
+        <br /><br /><br /><br />
+        <hr class="my-3" />
+        <br /><br /><br /><br />
+      </div>
     </div>
-</body>
+  </body>
 </html>
