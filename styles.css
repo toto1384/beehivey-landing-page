@@ -9,7 +9,7 @@
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: #f67280 !important;
+  background-color: #4c89d4 !important;
   border-width: 0px !important;
 }
 
@@ -41,7 +41,7 @@ img {
 }
 
 .hero_text_container {
-  background-color: rgba(159, 183, 214, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(12px);
 }
 
